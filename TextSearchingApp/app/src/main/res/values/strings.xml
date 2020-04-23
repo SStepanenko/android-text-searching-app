@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TextSearchingApp</string>
+
+    <string name="text_file_url_label">Text file URL</string>
+    <string name="download_button_text">Download</string>
+    <string name="search_filter_label">Search filter</string>
+    <string name="search_results_label_format">Found strings: %d</string>
+    <string name="search_button_text">Search</string>
+    <string name="error_title">Error</string>
+    <string name="error_message">Some error occurred</string>
+    <string name="state_downloading">Downloading file, please wait…</string>
+    <string name="state_searching">Searching, please wait…</string>
+    <string name="download_error_title">Download error</string>
+    <string name="download_error_empty_url">URL is empty</string>
+    <string name="download_error_invalid_url_format">Failed to download file: invalid URL format</string>
+    <string name="download_error_create_downloads_folder">Failed to create internal downloads folder</string>
+    <string name="download_error_delete_downloaded_file">Failed to delete previous downloaded file</string>
+    <string name="download_error_open_url_stream">Failed to open stream for reading data by given URL</string>
+    <string name="download_error_open_output_file">Failed to open output file for storing downloaded data</string>
+    <string name="download_error_open_output_file_security">Failed to open output file for storing downloaded data: security error</string>
+    <string name="download_error_read_url_data">Failed to read data from URL, possible connection problems</string>
+    <string name="download_error_write_url_data">Failed to write downloaded data</string>
+    <string name="download_error_unknown">Some error occurred on file downloading</string>
+    <string name="search_error_title">Search error</string>
+    <string name="search_error_file_not_found">File not found</string>
+    <string name="search_error_file_read">Failed to read file</string>
+    <string name="search_error_empty_filter">Search filter is empty</string>
+    <string name="search_error_unknown">Some error occurred on text searching</string>
+    <string name="search_error_message">Error occurred on text search</string>
+    <string name="unknown_error_title">Error</string>
+    <string name="unknown_error_message">Some error occurred</string>
+</resources>

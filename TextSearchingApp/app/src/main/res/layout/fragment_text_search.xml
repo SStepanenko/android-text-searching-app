@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".view.TextSearchFragment">
+
+    <LinearLayout
+        android:id="@+id/text_file_url_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/text_file_url_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_file_url_label" />
+
+        <EditText
+            android:id="@+id/text_file_url_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/text_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/filter_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/search_filter_label" />
+
+        <EditText
+            android:id="@+id/filter_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_button_text">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_results_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/search_results_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Found strings: 0" />
+        <ListView
+            android:id="@+id/found_strings_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:transcriptMode="alwaysScroll"
+            android:stackFromBottom="true"
+            android:layout_marginTop="10dp"
+            >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ProgressBar>
+        <TextView
+            android:id="@+id/progress_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            tools:text="Progress text..." />
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</LinearLayout>
