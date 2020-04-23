@@ -10,7 +10,7 @@ Filtering of strings is implemented in native code on C++ language.
 
 ## Built application
 
-**Built application:** [TextSearchingApp_1.0-debug.apk](https://drive.google.com/file/d/1X5DcvTWRFKzTme7WvgU102lNl1snNqDA/view?usp=sharing)
+[TextSearchingApp_1.0-debug.apk](https://drive.google.com/file/d/1X5DcvTWRFKzTme7WvgU102lNl1snNqDA/view?usp=sharing)
 
 Comand to install via adb
 ```
