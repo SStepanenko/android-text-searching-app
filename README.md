@@ -21,7 +21,7 @@ adb install TextSearchingApp_1.0-debug.apk
 
 Main Screen
 
-<img src="screenshots/text-searching-app_main-screen.png" width="30%" height="30%"/>
+<img src="screenshots/text-searching-app_main-screen.png" width="35%" height="35%"/>
 
 ## Task formulation
 
